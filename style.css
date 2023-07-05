@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body{
+    background-image: url('https://i.pinimg.com/originals/4a/ae/bf/4aaebf41f6b1f0a10991689cf0e90a19.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button-filter-container {
+
+    text-align: center;
+}
+
+#user-btn{
+    border-radius: 50px;
+}
+
+#delete-btn{
+    border-radius: 50px;
+}
+
+#female-btn{
+    border-radius: 50px;
+}
+
+#male-btn{
+    border-radius: 50px;
+}
+
+button {
+    font-family: 'Cabin';
+    padding: 1%;
+    margin: 1%;
+    border: none;   
+    font-weight: bolder;
+    color: #4285F4;
+}
+
+button:hover{
+    background-image: url('https://cdn.dribbble.com/users/1770290/screenshots/6142201/bg_73.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px palevioletred;
+    cursor: pointer;
+}
+
+
+
+#user-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+.user-card{
+padding: 1%;
+margin: 1%;
+width: 300px;
+text-align: center;
+border-radius: 7px;
+border-style: unset;
+
+}
+
+.users-card{
+background-color: deepskyblue;
+padding: 1%;
+margin: 1%;
+width: 300px;
+text-align: center;
+border-radius: 50px;
+border-style: unset;
+box-shadow: 5px 10px 15px slategray;
+}
+
+.users-card:hover{
+    background-image: url('https://64.media.tumblr.com/d0fb50e6f909d59fb1b62cd29e22efec/b2bbd40dc1458180-e9/s500x750/bbedf8676a2a13973db6483e886ba75690321421.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    translate: 0px -10px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: #4285F4 #0F9D58 #F4B400 #DB4437;
+    font-weight: bold;
+    font-size: large;
+    color:white;
+    
+}
+
+.user-img {
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.user-img:hover{
+    width: 90%;
+    translate:0px -5px;
+}
